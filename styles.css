@@ -71,7 +71,7 @@ html {
 .hero {
     height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
-                url('https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg');
+                url('./img/hero.png');
     background-size: cover;
     background-position: center;
     display: flex;
