@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExtraShoes | Calzado exclusivo en medellin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#ff4757">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#inicio">Extra<span>Shoes</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#catalogo-section">Productos</a></li>
+                <li><a href="#resenas">Reseñas</a></li>
+                <li><a href="#ubicacion" class="nav-btn">Ver tienda</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Tu estilo, <br><span>Sin complicaciones</span></h1>
+            <p>Los modelos mas exclusivos con entrega rapida en el valle de aburra.</p>
+            <br>
+            <a href="#catalogo-section" class="btn-primary">Ver catalogo hoy</a>
+        </div>
+    </section>
+
+    <section id="catalogo-section">
+        <div class="section-title">
+            <h2>Nuestro calzado</h2>
+            <p>Seleccionamos lo mejor para tus pies.</p>
+        </div>
+        
+        <div class="swiper swiper-productos">
+            <div id="catalogo" class="swiper-wrapper">
+                </div>
+            <div class="swiper-button-next swiper-nav-principal"></div>
+            <div class="swiper-button-prev swiper-nav-principal"></div>
+        </div>
+    </section>
+
+    <section id="resenas" class="resenas-seccion">
+        <div class="contenedor-resenas">
+            <center>
+            <h2>Voces del Valle de Aburrá</h2>
+            <p class="subtitulo-resenas">Lo que nuestros clientes dicen de nosotros en Envigado e Itagüí</p>
+            </center>
+            <div class="swiper swiper-resenas">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="tarjeta-testimonio">
+                            <i class="fas fa-quote-left"></i>
+                            <p>Increíble los New Balance. Me llegaron súper rápido a Itagüí y la calidad es 10/10.</p>
+                            <div class="info-cliente"><strong>Carlos Mario G.</strong></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="tarjeta-testimonio">
+                            <i class="fas fa-quote-left"></i>
+                            <p>La mejor atención por WhatsApp. Me ayudaron con la talla y todo salió increíble.</p>
+                            <div class="info-cliente"><strong>Mariana L.</strong></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="tarjeta-testimonio">
+                            <i class="fas fa-quote-left"></i>
+                            <p>Los Jordan Retro llegaron perfectos a Envigado. ¡Recomendados!</p>
+                            <div class="info-cliente"><strong>Juan Pablo R.</strong></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="tarjeta-testimonio">
+                            <i class="fas fa-quote-left"></i>
+                            <p>Envío gratis y rápido. La atención al cliente es inmediata y muy amable.</p>
+                            <div class="info-cliente"><strong>Valentina M.</strong></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next swiper-nav-secundario"></div>
+                <div class="swiper-button-prev swiper-nav-secundario"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ubicacion" class="ubicacion-seccion">
+        <div class="ubicacion-container">
+            <div class="info-local">
+                <span class="tag">Visítanos</span>
+                <h2>Nuestra Sede Física</h2>
+                <p class="descripcion">Ven y pruébate tus modelos favoritos en nuestro local en la minorista.</p>
+                
+                <div class="detalles-lista">
+                    <div class="detalle-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Dirección</strong>
+                            <p>Calle 55a # 57-80 - Medellin - Antioquia</p>
+                        </div>
+                    </div>
+                    <div class="detalle-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>Horario</strong>
+                            <p>Lunes a Sábado: 09:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="https://maps.app.goo.gl/du2YT1u4pMcg3MLr8" target="_blank" class="btn-como-llegar">
+                    <i class="fas fa-route"></i> ¿Cómo llegar con GPS?
+                </a>
+            </div>
+
+            <div class="mapa-frame">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d991.5148747427905!2d-75.57456173052873!3d6.255892332727464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMTUnMjEuMiJOIDc1wrAzNCcyNi4xIlc!5e0!3m2!1ses!2sco!4v1775015629066!5m2!1ses!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Extra<span>Shoes</span></h4>
+                <p>La mejor tienda de calzado del valle de aburra</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <ul>
+                    <li><i class="fas fa-phone"></i> 300 000 0000</li>
+                    <li><i class="fas fa-envelope"></i> ExtraShoes@gmail.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Minorista, Medellín</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Horarios</h4>
+                <ul>
+                    <li>Lunes - Viernes: 6:00 am - 7:00 pm</li>
+                    <li>Sábados: 9:00 am - 6:00 pm</li>
+                    <li>Domingos: Cerrado</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 ExtraShoes | Diseñado por Juan Jose Rendon</p>
+        </div>
+        <div style="background: rgba(255, 71, 87, 0.1); border: 1px solid #ff4757; color: #ff4757; padding: 10px; border-radius: 8px; font-size: 0.8rem; margin-top: 15px;">
+            <strong>AVISO:</strong> Esta es una demo académica o plantilla. No es un negocio real ni se realizan ventas.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <a href="https://wa.me/3000000000" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</body>
+</html>
