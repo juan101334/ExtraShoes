@@ -3,6 +3,8 @@
     "id": 1,
     "nombre": "New Balance 9060 Grey",
     "precio": "150.000",
+    "categoria": "Urbano",
+    "marca": "New Balance",
     "imagen": "./img/foto1.webp",
     "descripcion": "Estilo retro-futurista con máxima comodidad."
   },
@@ -10,6 +12,8 @@
     "id": 2,
     "nombre": "Adidas Campus 00s Black",
     "precio": "140.000",
+    "categoria": "Urbano",
+    "marca": "Adidas",
     "imagen": "./img/foto2.webp",
     "descripcion": "El clásico que combina con todo tu clóset."
   },
@@ -17,6 +21,8 @@
     "id": 3,
     "nombre": "Jordan 1 Retro High",
     "precio": "160.000",
+    "categoria": "Retro",
+    "marca": "Jordan",
     "imagen": "./img/foto3.webp",
     "descripcion": "Un icono del baloncesto en tus pies."
   },
@@ -24,6 +30,8 @@
     "id": 4,
     "nombre": "Yeezy Boost 350 V2",
     "precio": "150.000",
+    "categoria": "Deportivo",
+    "marca": "Yeezy",
     "imagen": "./img/foto4.webp",
     "descripcion": "Diseño vanguardista y ligereza absoluta."
   }
